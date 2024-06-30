@@ -4,7 +4,7 @@ const numero1 = Number(prompt("Informe um numero: "))
 const numero2 = Number(prompt("Infome um segundo numero "))
 const operacao = prompt("informe a operação que deseja(+,-,/,*): ")
 
-let resultado;
+var resultado;
 
 if(operacao === '+'){
     resultado = numero1 + numero2

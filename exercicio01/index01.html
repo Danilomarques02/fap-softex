@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <script>
-     alert(Number(prompt("Informe o valor em reais: ")))
-     alert(Number(prompt("Informe o valor em dólar: ")))
+     let reais = Number(prompt("Informe o valor em reais: "))
+     let dolar = Number(prompt("Informe o valor em dólar: "))
 
+    let resultado = reais / dolar;
+
+    alert("O valor em dólares é: " + resultado.toFixed(2))
 
     </script>
 </head>
