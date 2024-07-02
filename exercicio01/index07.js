@@ -7,9 +7,9 @@ const extra = prompt("Você tem horas extras?(sim-1;não-2): ")
 const quantidade = Number(prompt("Caso você respondeu sim na ultima pergunta, informe a quantidade de horas extras(Se respondeu não deixe em braco): "))
 
 
-var resultado;
-var  horasTra;
-var  valorHora;
+let resultado;
+let  horasTra;
+let  valorHora;
 if(hora === '1' && extra === '1'){
   horasTra = salario / 160
   valorHora = horasTra * 1.5 * quantidade
